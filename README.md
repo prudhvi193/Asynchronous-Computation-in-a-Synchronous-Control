@@ -20,6 +20,8 @@ iii) A bulk of transactions is processed in a batch such that a batch of transac
 
 iv) Note that for simplicity it is assumed that any transaction that is in execissive size in slots to overflow the capacity of a block, is to be cut to be accommodated just to fit 'n'.
 
+Parameters Used: Arrival Rate (λ), Service Rate (μ) where (λ<μ) and Queue Size (n).
+
 Phase-I: Find the probability, P(i) of the synchronous control to have 'i' number of slots in the block at equillibrium and plot their appropriate graphs such that the some of the probability converges to '1'.
 
 Phase-II:
@@ -28,4 +30,4 @@ A) Based on the probability P(i) in Phase-I, find P(i) when the size of the bloc
 
 B) Find P(i) that can compute towards a pseudo asynchronous block processing which means each transaction will be posted as soon as posted than just processing the whole block at once. Also we plot their appropriate graphs such that the some of the probability converges to '1'.
 
-As a solution for processing this project we had referenced different queueing models for developing a asynchronous computation in a synchronous control. There are two reports for the Phase-I and Phase-II problems which describe how the end result is obtained and how do the sum of probabilities converge to the value of '1'.
+As a solution for processing this project we had referenced different queueing models for developing a asynchronous computation in a synchronous control. There are two reports for the Phase-I and Phase-II problems which describe how the end result is obtained and how do the sum of probabilities converge to the value of '1'. 
